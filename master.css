@@ -23,10 +23,8 @@ header{
 }
 .link{
   display:flex;
-
-
 }
-.conti{
+.box-drop{
   display:flex;
   position: relative;
 }
@@ -38,10 +36,40 @@ header{
   border-color:rgba(153, 153, 153, 0.1);
   width:100px;
   top:50px;
-  left:-10px; 
+  left:-11px;
+}
+.drop-prodotti{
+  display: none;
+  position: absolute;
+  width:300px;
+  text-align: center;
+  top:50px;
+  left:-100px;
+  border:2px solid;
+  border-color:rgba(153, 153, 153, 0.1);
+
+}
+.drop-azienda{
+  display:none;
+  position: absolute;
+  text-align: center;
+  border:2px solid;
+  border-color:rgba(153, 153, 153, 0.1);
+  width:150px;
+  top:50px;
+  left:-30px;
 }
 .nav-bar.destra .drop-conti a{
   margin-left:0;
+  line-height:30px;
+}
+.nav-bar.destra .drop-prodotti a{
+  margin-left:0;
+  line-height:30px;
+}
+.nav-bar.destra .drop-azienda a{
+  margin-left:0;
+  line-height:30px;
 }
 .nav-bar.destra a{
   margin-left:20px;
