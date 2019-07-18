@@ -2,7 +2,7 @@ header{
   display: flex;
   justify-content:space-between;
   height:100px;
-  width:80%;
+  width:90%;
   margin: 0 auto;
 
 }
@@ -23,6 +23,25 @@ header{
 }
 .link{
   display:flex;
+
+
+}
+.conti{
+  display:flex;
+  position: relative;
+}
+.drop-conti{
+  display:none;
+  position: absolute;
+  text-align: center;
+  border:2px solid;
+  border-color:rgba(153, 153, 153, 0.1);
+  width:100px;
+  top:50px;
+  left:-10px; 
+}
+.nav-bar.destra .drop-conti a{
+  margin-left:0;
 }
 .nav-bar.destra a{
   margin-left:20px;
@@ -41,7 +60,7 @@ header{
 .nav-bar.destra .hamburger a{
   color: lightgrey;
   line-height: 70px;
-  font-size:30px; 
+  font-size:30px;
 }
 .download{
   line-height:3;
