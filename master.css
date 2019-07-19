@@ -35,7 +35,7 @@ header{
   border:2px solid;
   border-color:rgba(153, 153, 153, 0.1);
   width:100px;
-  top:50px;
+  top:55px;
   left:-11px;
 }
 .drop-prodotti{
@@ -43,7 +43,7 @@ header{
   position: absolute;
   width:300px;
   text-align: center;
-  top:50px;
+  top:55px;
   left:-100px;
   border:2px solid;
   border-color:rgba(153, 153, 153, 0.1);
@@ -56,8 +56,28 @@ header{
   border:2px solid;
   border-color:rgba(153, 153, 153, 0.1);
   width:150px;
-  top:50px;
+  top:55px;
   left:-30px;
+}
+.drop-aiuto{
+  display:none;
+  position: absolute;
+  text-align: center;
+  border:2px solid;
+  border-color:rgba(153, 153, 153, 0.1);
+  width:150px;
+  top:55px;
+  left:-30px;
+}
+.drop-lingua{
+  display: none;
+  position: absolute;
+  text-align: center;
+  border:2px solid;
+  border-color:rgba(153, 153, 153, 0.1);
+  width:100px;
+  top:55px;
+  left:-20px;
 }
 .nav-bar.destra .drop-conti a{
   margin-left:0;
@@ -68,6 +88,14 @@ header{
   line-height:30px;
 }
 .nav-bar.destra .drop-azienda a{
+  margin-left:0;
+  line-height:30px;
+}
+.nav-bar.destra .drop-aiuto a{
+  margin-left:0;
+  line-height:30px;
+}
+.nav-bar.destra .drop-lingua a{
   margin-left:0;
   line-height:30px;
 }
