@@ -7,7 +7,7 @@ header{
 
 }
 .nav-bar.sinistra a > img{
-  width:100%;
+  max-width:100px;
   height:100px;
 }
 .nav-bar{
@@ -134,5 +134,7 @@ header{
       display: block;
 
     }
-
+    .nav-bar.sinistra p{
+      display: none;
+    }
 }
